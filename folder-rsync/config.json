@@ -1,6 +1,6 @@
 {
   "name": "WWW Folder Rsync",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "slug": "folderrsync",
   "description": "Transfers the Hass.io folders to a remote rsync server.",
   "url" : "https://github.com/sj3fk3/hassio-addons/blob/master/README.md",
