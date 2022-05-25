@@ -14,11 +14,11 @@ rsyncurl="$username@$rsyncserver::$rootfolder"
 echo "[Info] trying to rsync hassio media folders to $rsyncurl"
 echo ""
 echo "[Info] /config/www"
-sshpass -p $password rsync -avt  /config/www/ $rsyncurl 
+sshpass -p $password rsync -avt  /config/www/ $rsyncurl/www/
 if [ -d "/media" ]; then
  echo ""
  echo "[Info] /media"
- sshpass -p $password rsync -avt /media/ $rsyncurl
+ sshpass -p $password rsync -avt /media/ $rsyncurl/media/
 else 
  echo ""
  echo "[Info] /media not existing"
